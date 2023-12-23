@@ -1,0 +1,61 @@
+/* taskList.css */
+
+/* Style for the task list container */
+.task-list-container {
+  margin-top: 20px;
+}
+
+/* Style for the label and checkbox */
+.task-list-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style for the task item */
+.task-item {
+  list-style: none;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for completed tasks with line-through text decoration */
+.task-item.completed {
+  text-decoration: line-through;
+}
+
+/* Style for the edit and delete buttons */
+.task-actions {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #007bff;
+}
+
+/* Style for the input fields in edit mode */
+.edit-input {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  /* Adjust the margin and padding for smaller screens */
+  .task-list-container {
+    margin-top: 10px;
+  }
+
+  .task-item {
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+
+  /* Adjust font size for smaller screens */
+  .task-actions {
+    font-size: 14px;
+  }
+}
+/*  */
